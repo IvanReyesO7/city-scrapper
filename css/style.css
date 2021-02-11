@@ -1,0 +1,14 @@
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+/* local files */
+@import "banner.css";
+@import "header-image.css";
+
+body{
+  margin: 0px;
+  background-color: #E8E6E6;
+}
+
+a{
+  text-decoration: none;
+}
