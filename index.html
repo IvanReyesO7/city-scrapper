@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
     <title>City Scrapper</title>
 </head>
 <body>
@@ -26,9 +29,13 @@
       </a>
     </div>
   </div>
-  <!-- City picture -->
+  <!-- City card picture -->
   <div id="header-image">
-    
+    <div id='map' style="width: 300px;height: 300px;border-radius: 50%;"></div>
+    <div class="weather"></div>
+  </div>
+  <div class="container">
+  <!-- map -->
   </div>
   <!-- JavaScript -->
   <script src="lib/index.js"></script>
