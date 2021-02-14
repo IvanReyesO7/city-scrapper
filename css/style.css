@@ -3,6 +3,7 @@
 /* local files */
 @import "banner.css";
 @import "header-image.css";
+@import "card.css";
 
 body{
   margin: 0px;
@@ -13,4 +14,32 @@ a{
   text-decoration: none;
 }
 
+.general-info-cards{
+  padding: 0px 104px;
+}
 
+.general-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.title h5{
+  color: #333333;
+  font-family: 'Jomhuria';
+  font-size: 35px;
+  font-weight: normal;
+  border-bottom: 5px solid #333333; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+}
+
+.title h5 span { 
+  background:#E8E6E6; 
+  padding:0 10px; 
+}

@@ -19,6 +19,8 @@
   align-items: center;
   padding: 5px;
   justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 #logo{
