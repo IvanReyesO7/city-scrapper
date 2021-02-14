@@ -8,10 +8,10 @@
   text-align: center;
 }
 
-.card-image{
+#card-image{
   width: 456px;
   height: 304px;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .facts{
