@@ -29,7 +29,7 @@
       </a>
     </div>
   </div>
-  <!-- City card picture -->
+  <!-- header -->
   <div id="header-image">
     <div class="text">
       <h2 id="city-header-name"></h2>
@@ -39,42 +39,54 @@
     </div>
     <div class="weather"></div>
   </div>
-  <div class="general-info-cards">
-    <!-- General info -->
-    <div class="title"><h5><span>General information</span></h5></div>
-    <!-- Info Card -->
-    <div class="general-info">
-      <div class="card">
-        <div id="card-image"></div>
-        <table class="facts">
-          <tr>
-            <td class="fact-title">Name</td>
-            <td id="city_card_name" class="city-fact"></td>
-          </tr>
-          <tr>
-            <td class="fact-title">Country</td>
-            <td id="city_card_country"class="city-fact"></td>
-          </tr>
-          <tr>
-            <td class="fact-title">Population</td>
-            <td id="city_card_population" class="city-fact"></td>
-          </tr>
-        </table>
-        <a id="wiki" class="wiki" href="#">Learn more</a>
+  <div id="hide">
+    <!-- City card picture -->
+    <div class="general-info-cards">
+      <!-- General info -->
+      <div class="title"><h5><span>General information</span></h5></div>
+      <!-- Info Card -->
+      <div class="general-info">
+        <div class="card">
+          <div id="card-image"></div>
+          <table class="facts">
+            <tr>
+              <td class="fact-title">Name</td>
+              <td id="city_card_name" class="city-fact"></td>
+            </tr>
+            <tr>
+              <td class="fact-title">Country</td>
+              <td id="city_card_country"class="city-fact"></td>
+            </tr>
+            <tr>
+              <td class="fact-title">Population</td>
+              <td id="city_card_population" class="city-fact"></td>
+            </tr>
+          </table>
+          <a target=”_blank” id="wiki" class="wiki" href="#">Learn more</a>
+        </div>
+        <!-- map -->
+        <div id='map' style="width: 744px;height: 512px;"></div>
       </div>
-      <!-- map -->
-      <div id='map' style="width: 744px;height: 512px;"></div>
     </div>
-  </div>
-  <div class="news">
-    <!-- Recent News -->
-    <div class="title"><h5><span>Recent News</span></h5></div>
-    <div class="news-info">
-      <div class="main-news">
-        <img id="main-news-img" src="" alt="">
+    <!-- news -->
+    <div class="news">
+      <!-- Recent News -->
+      <div class="title"><h5><span>Recent News</span></h5></div>
+      <div class="news-info">
+        <div class="main-news">
+          <img id="main-news-img" src="" alt="">
+          <div class="news-details">
+            <h3 id="main-news-title"></h3>
+            <p id="main-news-description"></p>
+          </div>
+        </div>
+        <div class="news-headers">
+        </div>
       </div>
-      <div class="news-headers"></div>
     </div>
+</div>
+  <!-- footer -->
+  <div class="footer">
   </div>
   <!-- JavaScript -->
   <script src="lib/index.js"></script>

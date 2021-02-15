@@ -41,3 +41,12 @@
 #glass{
   color: white;
 }
+
+#search{
+    width: 216px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: lightgray;
+}

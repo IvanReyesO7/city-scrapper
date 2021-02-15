@@ -5,6 +5,7 @@
 @import "header-image.css";
 @import "card.css";
 @import "news.css";
+@import "footer.css";
 
 body{
   margin: 0px;
@@ -20,7 +21,7 @@ a{
 }
 
 .news{
-  padding: 0px 104px;
+  padding: 8px 104px;
 }
 
 .general-info{
@@ -47,4 +48,8 @@ a{
 .title h5 span { 
   background:#E8E6E6; 
   padding:0 10px; 
+}
+
+#hide{
+  visibility: hidden;
 }
