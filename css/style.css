@@ -4,6 +4,7 @@
 @import "banner.css";
 @import "header-image.css";
 @import "card.css";
+@import "news.css";
 
 body{
   margin: 0px;
@@ -15,6 +16,10 @@ a{
 }
 
 .general-info-cards{
+  padding: 0px 104px;
+}
+
+.news{
   padding: 0px 104px;
 }
 
